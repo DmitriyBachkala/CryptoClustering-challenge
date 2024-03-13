@@ -16,8 +16,8 @@ Inside the loop:
     model.fit(df_scaled_data)
 3. Append the model.inertia_ to the inertia list
     inertia.append(model.inertia_)
-
 inertia
+
 -----------------
 Create a new DataFrame with the PCA data.
 
